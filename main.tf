@@ -1,3 +1,7 @@
+resource "random_pet" "hippo" {
+  length = var.length + 1
+}
+
 resource "random_pet" "doggo" {
   length = var.length + 1
 }
